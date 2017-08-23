@@ -1,5 +1,3 @@
-# Boolean-Variable
-Just another repository
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +12,7 @@ namespace Boolean_Variable
         {
             string word = Console.ReadLine().ToLower();
 
-            bool isTrue = Convert.ToBoolean(word);
+            bool isTrue = (word == "true");
 
             if (isTrue)
             {
